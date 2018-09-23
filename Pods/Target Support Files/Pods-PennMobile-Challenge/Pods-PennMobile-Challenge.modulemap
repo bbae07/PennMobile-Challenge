@@ -1,0 +1,6 @@
+framework module Pods_PennMobile_Challenge {
+  umbrella header "Pods-PennMobile-Challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

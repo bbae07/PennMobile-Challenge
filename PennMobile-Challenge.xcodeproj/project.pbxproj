@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13FCCF49E8183B179555B761 /* Pods_PennMobile_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B5151760E63D1F60F21442 /* Pods_PennMobile_ChallengeTests.framework */; };
+		83FB4A28040A0A441215816D /* Pods_PennMobile_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB420D388BACE7C256FD38 /* Pods_PennMobile_Challenge.framework */; };
+		86E3EBE13963FD3F6A3438A8 /* Pods_PennMobile_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7A65FB535A60341E1168CC /* Pods_PennMobile_ChallengeUITests.framework */; };
+		F1018913215712CE00EFF285 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1018912215712CE00EFF285 /* MenuVC.swift */; };
 		F126000C2156C6BF00CA575B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126000B2156C6BF00CA575B /* AppDelegate.swift */; };
 		F126000E2156C6BF00CA575B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126000D2156C6BF00CA575B /* ViewController.swift */; };
 		F12600112156C6BF00CA575B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F126000F2156C6BF00CA575B /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		F12600162156C6C100CA575B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12600142156C6C100CA575B /* LaunchScreen.storyboard */; };
 		F12600212156C6C100CA575B /* PennMobile_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12600202156C6C100CA575B /* PennMobile_ChallengeTests.swift */; };
 		F126002C2156C6C100CA575B /* PennMobile_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126002B2156C6C100CA575B /* PennMobile_ChallengeUITests.swift */; };
+		F126003E2156CC8400CA575B /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F126003D2156CC8400CA575B /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A3625B7E5247EB45AC5B0D /* Pods-PennMobile-Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-Challenge/Pods-PennMobile-Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		2DAB420D388BACE7C256FD38 /* Pods_PennMobile_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennMobile_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A91C1F1EDA960A70E0DB504 /* Pods-PennMobile-ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-ChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-ChallengeUITests/Pods-PennMobile-ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7A65FB535A60341E1168CC /* Pods_PennMobile_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennMobile_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		593DE17EE7F505D32A70B0EE /* Pods-PennMobile-Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-Challenge/Pods-PennMobile-Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		5B4871E53852B7360138940B /* Pods-PennMobile-ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-ChallengeTests/Pods-PennMobile-ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		894A6FD47701305D68E02A1B /* Pods-PennMobile-ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-ChallengeTests/Pods-PennMobile-ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5B5151760E63D1F60F21442 /* Pods_PennMobile_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PennMobile_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B605332F17832EFB6391FB92 /* Pods-PennMobile-ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PennMobile-ChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PennMobile-ChallengeUITests/Pods-PennMobile-ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1018912215712CE00EFF285 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		F12600082156C6BF00CA575B /* PennMobile-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PennMobile-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F126000B2156C6BF00CA575B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F126000D2156C6BF00CA575B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		F12600272156C6C100CA575B /* PennMobile-ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PennMobile-ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F126002B2156C6C100CA575B /* PennMobile_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennMobile_ChallengeUITests.swift; sourceTree = "<group>"; };
 		F126002D2156C6C100CA575B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F126003D2156CC8400CA575B /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FB4A28040A0A441215816D /* Pods_PennMobile_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13FCCF49E8183B179555B761 /* Pods_PennMobile_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E3EBE13963FD3F6A3438A8 /* Pods_PennMobile_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBD85A094E872E08CDC1076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAB420D388BACE7C256FD38 /* Pods_PennMobile_Challenge.framework */,
+				A5B5151760E63D1F60F21442 /* Pods_PennMobile_ChallengeTests.framework */,
+				4F7A65FB535A60341E1168CC /* Pods_PennMobile_ChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1FEB0FE0165285BE3C3427D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A3625B7E5247EB45AC5B0D /* Pods-PennMobile-Challenge.debug.xcconfig */,
+				593DE17EE7F505D32A70B0EE /* Pods-PennMobile-Challenge.release.xcconfig */,
+				894A6FD47701305D68E02A1B /* Pods-PennMobile-ChallengeTests.debug.xcconfig */,
+				5B4871E53852B7360138940B /* Pods-PennMobile-ChallengeTests.release.xcconfig */,
+				3A91C1F1EDA960A70E0DB504 /* Pods-PennMobile-ChallengeUITests.debug.xcconfig */,
+				B605332F17832EFB6391FB92 /* Pods-PennMobile-ChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F12600092156C6BF00CA575B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,11 +129,9 @@
 		F126000A2156C6BF00CA575B /* PennMobile-Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				F126000B2156C6BF00CA575B /* AppDelegate.swift */,
-				F126000D2156C6BF00CA575B /* ViewController.swift */,
-				F126000F2156C6BF00CA575B /* Main.storyboard */,
+				F12600432156E2FA00CA575B /* Controller */,
+				F12600412156E2C800CA575B /* View */,
 				F12600122156C6C100CA575B /* Assets.xcassets */,
-				F12600142156C6C100CA575B /* LaunchScreen.storyboard */,
 				F12600172156C6C100CA575B /* Info.plist */,
 			);
 			path = "PennMobile-Challenge";
@@ -115,6 +155,26 @@
 			path = "PennMobile-ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		F12600412156E2C800CA575B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F126003D2156CC8400CA575B /* CustomCell.swift */,
+				F126000B2156C6BF00CA575B /* AppDelegate.swift */,
+				F126000F2156C6BF00CA575B /* Main.storyboard */,
+				F12600142156C6C100CA575B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F12600432156E2FA00CA575B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F126000D2156C6BF00CA575B /* ViewController.swift */,
+				F1018912215712CE00EFF285 /* MenuVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F126FFFF2156C6BF00CA575B = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +182,8 @@
 				F126001F2156C6C100CA575B /* PennMobile-ChallengeTests */,
 				F126002A2156C6C100CA575B /* PennMobile-ChallengeUITests */,
 				F12600092156C6BF00CA575B /* Products */,
+				C1FEB0FE0165285BE3C3427D /* Pods */,
+				2DBD85A094E872E08CDC1076 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F12600302156C6C100CA575B /* Build configuration list for PBXNativeTarget "PennMobile-Challenge" */;
 			buildPhases = (
+				975512ACD19E2949345CEDFF /* [CP] Check Pods Manifest.lock */,
 				F12600042156C6BF00CA575B /* Sources */,
 				F12600052156C6BF00CA575B /* Frameworks */,
 				F12600062156C6BF00CA575B /* Resources */,
+				531FD28E6B9AB781073B068B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F12600332156C6C100CA575B /* Build configuration list for PBXNativeTarget "PennMobile-ChallengeTests" */;
 			buildPhases = (
+				1895486C50167BCE42874F48 /* [CP] Check Pods Manifest.lock */,
 				F12600182156C6C100CA575B /* Sources */,
 				F12600192156C6C100CA575B /* Frameworks */,
 				F126001A2156C6C100CA575B /* Resources */,
@@ -167,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F12600362156C6C100CA575B /* Build configuration list for PBXNativeTarget "PennMobile-ChallengeUITests" */;
 			buildPhases = (
+				5209EC461621F9AA26E875A6 /* [CP] Check Pods Manifest.lock */,
 				F12600232156C6C100CA575B /* Sources */,
 				F12600242156C6C100CA575B /* Frameworks */,
 				F12600252156C6C100CA575B /* Resources */,
@@ -251,12 +317,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1895486C50167BCE42874F48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennMobile-ChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5209EC461621F9AA26E875A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennMobile-ChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		531FD28E6B9AB781073B068B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PennMobile-Challenge/Pods-PennMobile-Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PennMobile-Challenge/Pods-PennMobile-Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975512ACD19E2949345CEDFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PennMobile-Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F12600042156C6BF00CA575B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F126000E2156C6BF00CA575B /* ViewController.swift in Sources */,
+				F1018913215712CE00EFF285 /* MenuVC.swift in Sources */,
+				F126003E2156CC8400CA575B /* CustomCell.swift in Sources */,
 				F126000C2156C6BF00CA575B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,16 +577,18 @@
 		};
 		F12600312156C6C100CA575B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A3625B7E5247EB45AC5B0D /* Pods-PennMobile-Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L6C8TCRC5L;
+				DEVELOPMENT_TEAM = 3242B42X4A;
 				INFOPLIST_FILE = "PennMobile-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bbae.PennMobile-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "brianchanseobae.PennMobile-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,16 +597,18 @@
 		};
 		F12600322156C6C100CA575B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 593DE17EE7F505D32A70B0EE /* Pods-PennMobile-Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L6C8TCRC5L;
+				DEVELOPMENT_TEAM = 3242B42X4A;
 				INFOPLIST_FILE = "PennMobile-Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bbae.PennMobile-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "brianchanseobae.PennMobile-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +617,7 @@
 		};
 		F12600342156C6C100CA575B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894A6FD47701305D68E02A1B /* Pods-PennMobile-ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +639,7 @@
 		};
 		F12600352156C6C100CA575B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4871E53852B7360138940B /* Pods-PennMobile-ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +661,7 @@
 		};
 		F12600372156C6C100CA575B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A91C1F1EDA960A70E0DB504 /* Pods-PennMobile-ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +682,7 @@
 		};
 		F12600382156C6C100CA575B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B605332F17832EFB6391FB92 /* Pods-PennMobile-ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
