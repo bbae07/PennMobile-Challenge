@@ -18,7 +18,7 @@ NOTE: This command requires CocoaPods to work correctly. Please make sure to alw
 ## Features
 
 * TableView of dining halls - picture, name, operating hours
-* WebKitView or the dining hall that loads when the corresponding cell is pressed
+* WebKitView of the dining hall that loads when the corresponding cell is pressed
 * Shows alert when no network connection
 
 ## Screenshots
