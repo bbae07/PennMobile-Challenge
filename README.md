@@ -29,3 +29,4 @@ NOTE: This command requires CocoaPods to work correctly. Please make sure to alw
 
 * Did not use the MVC pattern since the project was simple enough.
 * There is a bug regarding the network connectivity - when the user turns the internet back on after initially running the app without internet, the app doesn't have enough time to fetch data again and refresh when the user presses on the cell. (Is solved by forcing a delay on the WebKitView, but that makes the app clunky :crying_cat_face:) As for now, as long as the user loaded the data once, the data is cached and the alert works fine.
+* Tested on iPhone 6, 8, X, iPad Air 2 simulators to check for scaling issues
