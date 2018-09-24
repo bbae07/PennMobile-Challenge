@@ -10,7 +10,7 @@ import UIKit
 
 class CustomCell: UITableViewCell {
 
-    
+    //Variables for customcell -> check storyboard
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var open: UILabel!

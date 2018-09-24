@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U2T-tX-HL7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="U2T-tX-HL7">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,30 +30,24 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Houston Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JjG-su-DBN">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Houston Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JjG-su-DBN">
                                                     <rect key="frame" x="146" y="6" width="181" height="24"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOT IMPLEMENTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7E-IF-9Za">
-                                                    <rect key="frame" x="146" y="29" width="115" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOT IMPLEMENTED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m7E-IF-9Za">
+                                                    <rect key="frame" x="146" y="29" width="181" height="21"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11a - 3p" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCZ-p0-i2a">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11a - 3p" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xCZ-p0-i2a">
                                                     <rect key="frame" x="146" y="49" width="181" height="17"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fis-uu-GvF">
-                                                    <rect key="frame" x="15" y="9" width="117" height="58"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="117" id="PpH-QZ-xZj"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4oB-Hf-bMh">
                                                     <rect key="frame" x="349" y="21" width="16" height="35"/>
                                                     <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="17"/>
@@ -63,26 +55,32 @@
                                                         <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                 </button>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fis-uu-GvF">
+                                                    <rect key="frame" x="15" y="6" width="117" height="58"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="117" id="PpH-QZ-xZj"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="m7E-IF-9Za" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="topMargin" constant="18" id="33F-dc-f8l"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="m7E-IF-9Za" secondAttribute="bottom" constant="15" id="CJI-QT-Naf"/>
+                                                <constraint firstItem="m7E-IF-9Za" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="topMargin" constant="18" id="ElM-XK-Ima"/>
                                                 <constraint firstItem="4oB-Hf-bMh" firstAttribute="leading" secondItem="JjG-su-DBN" secondAttribute="trailing" constant="22" id="IrH-ML-mq6"/>
-                                                <constraint firstItem="m7E-IF-9Za" firstAttribute="leading" secondItem="fis-uu-GvF" secondAttribute="trailing" constant="14" id="JyQ-RZ-W14"/>
                                                 <constraint firstItem="xCZ-p0-i2a" firstAttribute="top" secondItem="JjG-su-DBN" secondAttribute="bottom" constant="19" id="OBC-I9-goP"/>
                                                 <constraint firstAttribute="bottom" secondItem="xCZ-p0-i2a" secondAttribute="bottom" constant="10" id="Oyz-OG-Y01"/>
                                                 <constraint firstAttribute="bottom" secondItem="4oB-Hf-bMh" secondAttribute="bottom" constant="20" id="XuZ-A1-B1y"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="m7E-IF-9Za" secondAttribute="trailing" constant="99" id="Y9y-6U-I8G"/>
                                                 <constraint firstItem="JjG-su-DBN" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="top" constant="6" id="Zag-Fa-xaQ"/>
                                                 <constraint firstItem="4oB-Hf-bMh" firstAttribute="leading" secondItem="xCZ-p0-i2a" secondAttribute="trailing" constant="22" id="asb-lc-ycy"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="m7E-IF-9Za" secondAttribute="bottom" constant="15" id="bgN-up-o33"/>
                                                 <constraint firstItem="JjG-su-DBN" firstAttribute="leading" secondItem="fis-uu-GvF" secondAttribute="trailing" constant="14" id="cSK-LW-1tq"/>
                                                 <constraint firstAttribute="trailing" secondItem="4oB-Hf-bMh" secondAttribute="trailing" constant="10" id="cfr-b8-kGO"/>
+                                                <constraint firstItem="m7E-IF-9Za" firstAttribute="leading" secondItem="fis-uu-GvF" secondAttribute="trailing" constant="14" id="iJM-nk-P0C"/>
                                                 <constraint firstItem="4oB-Hf-bMh" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="top" constant="21" id="jDC-p9-K4A"/>
                                                 <constraint firstItem="xCZ-p0-i2a" firstAttribute="leading" secondItem="fis-uu-GvF" secondAttribute="trailing" constant="14" id="jEg-p1-pmW"/>
-                                                <constraint firstAttribute="bottom" secondItem="fis-uu-GvF" secondAttribute="bottom" constant="9" id="lEq-K5-I7Q"/>
+                                                <constraint firstAttribute="bottom" secondItem="fis-uu-GvF" secondAttribute="bottom" constant="12" id="lEq-K5-I7Q"/>
                                                 <constraint firstItem="fis-uu-GvF" firstAttribute="leading" secondItem="7qQ-Y6-tHB" secondAttribute="leading" constant="15" id="m5y-FZ-45h"/>
-                                                <constraint firstItem="fis-uu-GvF" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="top" constant="9" id="peV-xq-PWJ"/>
+                                                <constraint firstItem="fis-uu-GvF" firstAttribute="top" secondItem="7qQ-Y6-tHB" secondAttribute="top" constant="6" id="peV-xq-PWJ"/>
                                                 <constraint firstAttribute="trailing" secondItem="JjG-su-DBN" secondAttribute="trailing" constant="48" id="s5F-Kz-s78"/>
+                                                <constraint firstItem="4oB-Hf-bMh" firstAttribute="leading" secondItem="m7E-IF-9Za" secondAttribute="trailing" constant="22" id="uT7-ca-3VD"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
