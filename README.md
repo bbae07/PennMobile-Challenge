@@ -21,8 +21,11 @@ NOTE: This command requires CocoaPods to work correctly. Please make sure to alw
 * WebKitView or the dining hall that loads when the corresponding cell is pressed
 * Shows alert when no network connection
 
+## Screenshots
+<img src="https://i.imgur.com/Dkiqo22.jpg" width="250">        <img src="https://i.imgur.com/oal19mU.png" width="250">        <img src="https://i.imgur.com/R8icYM7.png" width="250">
+
 ##
 ### Notes
 
 * Did not use the MVC pattern since the project was simple enough.
-* There is an existing bug regarding the network connectivity - when the user turns the internet back on after initially running the app without internet, the app doesn't have enough time to fetch data again and refresh. (Is solved by forcing a delay on the WebKitView, but that makes the app clunky :crying_cat_face:) 
+* There is an existing bug regarding the network connectivity - when the user turns the internet back on after initially running the app without internet, the app doesn't have enough time to fetch data again and refresh. (Is solved by forcing a delay on the WebKitView, but that makes the app clunky :crying_cat_face:)
